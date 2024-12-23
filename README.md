@@ -1,1 +1,1 @@
-# Maven_In_Jenkins
+# Simple Maven Project for Testing in Jenkins

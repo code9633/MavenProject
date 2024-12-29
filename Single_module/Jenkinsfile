@@ -1,0 +1,19 @@
+pipeline{
+    agent any
+    stages{
+        stage('Init'){
+            steps{
+                echo "Hi this is Ansual From level 000"
+                echo "We are strating the tesing"
+            }
+        stage('Build'){
+            steps{
+                echo "Building Sample Maven Project"
+            }
+        stage('Deploy'){
+            echo 'Deploying in stagine Area' 
+        }
+        }
+        }
+    }
+}

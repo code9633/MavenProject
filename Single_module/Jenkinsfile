@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('Init'){
             steps{
-                echo "Hi this is Ansual From level 000"
+                echo "Hi this is Shashika From level 001"
                 echo "We are strating the tesing"
             }
         }    
